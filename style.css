@@ -33,3 +33,50 @@ textarea {
   width:80%;
   height:150px;
 }
+
+.shipping {
+  display: inline;
+}
+
+#checkshipping:checked+.shipping {
+  display: none;
+}
+
+.textbox {
+  width: 60%;
+}
+
+.column label {
+  width:200px;
+}
+
+.row {
+  display: flex;
+  
+}
+
+.column {
+  display:flex;
+  flex:50%;
+  margin:0px 10px 0px 10px; 
+}
+
+.small-column {
+  flex: 20%;
+}
+
+.big-column {
+  flex: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex-direction: column;
+  }
+  .column label {
+    width:100%;
+  }
+  .textbox {
+    width:100%;
+  }
+}

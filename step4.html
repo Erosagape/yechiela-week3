@@ -30,24 +30,48 @@
 
 
             <form>
-                <label for="cardname">Name on card</label>
-                <input type="text" id="cardname" />
-                <label for="cardtype">Card type</label>
-                <select id="cardtype">
-                    <option value="VISA">VISA</option>
-                    <option value="MASTERCARD">MASTER CARD</option>
-                </select>
-                <label for="cardnumber">Card Number</label>
-                <input type="text" id="cardnumber" minlength="16"
-                    maxlength="16" />
-                <label for="firstname">First name</label>
-                <input type="text" id="firstname" />
-                <label for="expiremonth">Expiry Month</label>
-                <input type="text" id="expiremonth" maxlength="2" />
-                <label for="expireyear">Expiry Year</label>
-                <input type="text" id="expireyear" maxlength="4" minlength="4" />
-                <label for="ccv">CCV</label>
-                <input type="text" id="ccv" minlength="3" maxlength="3" />
+                <div class="row">
+                    <div class="column">
+                            <label for="cardname">Name on card</label>
+                            <input type="text" class="textbox" id="cardname" />            
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="column">
+                                <label for="cardtype">Card type</label>
+                                <select id="cardtype">
+                                    <option value="VISA">VISA</option>
+                                    <option value="MASTERCARD">MASTER CARD</option>
+                                </select>            
+                        </div>
+                </div>
+                <div class="row">                    
+                    <div class="column">
+                            <label for="cardnumber">Card Number</label>
+                            <input type="text" class="textbox" id="cardnumber" minlength="16"
+                                maxlength="16" />            
+                    </div>
+                    <div class="column">
+                            <label for="firstname">First name</label>
+                            <input type="text" class="textbox" id="firstname" />            
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                            <label for="expiremonth">Expiry Month</label>
+                            <input type="text" class="textbox" id="expiremonth" maxlength="2" />            
+                    </div>
+                    <div class="column">
+                            <label for="expireyear">Expiry Year</label>
+                            <input type="text"  class="textbox" d="expireyear" maxlength="4" minlength="4" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                            <label for="ccv">CCV</label>
+                            <input type="text" class="textbox" id="ccv" minlength="3" maxlength="3" />            
+                    </div>
+                </div>
             </form>
         </section>
     </main>
